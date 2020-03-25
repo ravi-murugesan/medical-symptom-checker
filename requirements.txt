@@ -1,3 +1,2 @@
 Streamlit==0.56.0
-gunicorn==19.6.0	
-python==3.7.5
+gunicorn==19.6.0
