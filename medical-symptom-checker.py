@@ -1,9 +1,3 @@
 import streamlit as st
+st.title('Test_App')
 
-def main():
-    '''A Simple app'''
-
-    st.title('Test_App')
-
-if __name__ == '__main__':
-    main()
