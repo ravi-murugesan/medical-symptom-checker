@@ -65,7 +65,7 @@ def main():
 
             st.header('Other symptoms associated with predicted diseases are : ')
             lst1 = df['disease'].tolist()
-            for i in range(k):
+            for i in range(len(lst1)):
                 for k,v in group_dict.items():
                     if k == lst1[i]:
                         lst2 = v
